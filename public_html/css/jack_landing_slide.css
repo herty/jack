@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+		body {
+			font-family: Arial, sans-serif;
+		}
+		div#tmpSlideshow {
+			margin: 10px;
+			padding: 5px;
+			position: relative;
+			height: 360px;
+			width: 410px;
+			background: #FFFFFF;
+			border: 2px solid rgb(200, 200, 200);
+		}
+		div.tmpSlide {
+			position: absolute;
+			top: 5;
+			left: 5;
+			height: 320px;
+			width: 400px;
+			display: none;
+		}
+		div.tmpSlide img {
+			float: left;
+			margin: 0 0 0 0;
+			width: 400px;
+			height: 320px;
+			border: 0 solid rgb(244, 244, 244);
+		}
+		div.tmpSlideCopy {
+			position: absolute;
+			left: 20px;
+			top: 330px;
+			width: 360px;
+		}
+		div#tmpSlideshow h4 {
+			color: #666666;
+			opacity:1;
+			text-transform: uppercase;
+			font: 16px stretch;
+			margin: 0;
+		}
+		div.tmpSlideCopy p {
+			color: #444444;
+			font: 14px stretch;
+			line-height: 1em;
+			margin: 0;
+			padding-top: 2px;
+		}
+		div#tmpSlideshowControls {
+			position: absolute;
+			top: 340px;
+			left: 220px;
+			width: 180px;
+		}
+		div.tmpSlideshowControl {
+			border: 1px solid #e1dece;
+			float: left;
+			margin: 0 6px 6px 0;
+			background: url('/Template/Pictures/Buttons/Feature.png') no-repeat;
+			width: 12px;
+			height: 12px;
+			color: #554d31;
+			font: 6px Arial, sans-serif;
+			text-align: center;
+			cursor: pointer;
+		}
+		div.tmpSlideshowControl span {
+			line-height: 12px;
+			vertical-align: middle;
+		}
+		div.tmpSlideshowControlOn {
+			background-image: url('/Template/Pictures/Buttons/FeatureOver.png');
+		}
+		div.tmpSlideshowControlActive {
+			border: 1px solid rgb(161, 155, 137);
+		}

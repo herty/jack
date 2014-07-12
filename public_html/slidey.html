@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Timeline</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="scripts/fadeslideshow.js">
+
+/***********************************************
+* Ultimate Fade In Slideshow v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+var mygallery=new fadeSlideShow({
+	wrapperid: "fadeshow1", //ID of blank DIV on page to house Slideshow
+	dimensions: [400, 360], //width/height of gallery in pixels. Should reflect dimensions of largest image
+	imagearray: [
+		["images/art%20(4).jpg", "", "", "1963"],
+		["images/art%20(2).jpg", "http://en.wikipedia.org/wiki/Cave", "_new", "1972"],
+		["images/art%20(6).jpg", "", "", "1987"],
+		["images/art%20(8).jpg", "", "", "2012"] //<--no trailing comma after very last image element!
+	],
+	displaymode: {type:'auto', pause:1000, cycles:0, wraparound:false},
+	persist: false, //remember last viewed slide and recall within same session?
+	fadeduration: 4000, //transition duration (milliseconds)
+	descreveal: "always",
+	togglerid: ""
+})
+;
+
+</script>
+</head>
+<body style="background:#CCCCCC;">
+	<div align="center">
+		<div style="margin:0px;" id="fadeshow1"></div>
+	</div>
+</body>
+</html>

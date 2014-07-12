@@ -1,0 +1,41 @@
+<manifest alg="2" build="960" opt="false">
+  <folder name="css">
+    <file name="site_global.css" crc="4080126089"/>
+    <file name="master_a-master.css" crc="4124247941" ref="contact:portfolio:index:studio"/>
+    <file name="contact.css" crc="276106111" ref="contact"/>
+    <file name="portfolio.css" crc="4288589665" ref="portfolio"/>
+    <file name="index.css" crc="4066644111" ref="index"/>
+    <file name="studio.css" crc="3897771978" ref="studio"/>
+  </folder>
+  <folder name="scripts">
+    <folder name="1.1">
+      <file name="jquery-1.7.min.js" crc="4285342938" ref="portfolio:studio:contact:index"/>
+      <file name="sprydomutils.js" crc="4230755498" ref="portfolio:studio:contact:index"/>
+      <file name="museutils.js" crc="3762396489" ref="portfolio:studio:contact:index"/>
+      <file name="pie.js" crc="4169505556" ref="portfolio:studio:contact:index"/>
+      <file name="jquery.musemenu.js" crc="3987330193" ref="portfolio:studio:contact:index"/>
+      <file name="musesprycommon.js" crc="4101569965" ref="portfolio"/>
+      <file name="musesprypanels.js" crc="4216740162" ref="portfolio"/>
+      <file name="musespryslideshow.js" crc="180089035" ref="portfolio"/>
+      <file name="jquery.museoverlay.js" crc="4244454990" ref="portfolio"/>
+    </folder>
+  </folder>
+  <folder name="images">
+    <file name="page-sprite.png" crc="113251595" ref="portfolio:studio:contact:index"/>
+    <file name="jrfa_banner01.jpg" crc="4090039749" ref="portfolio:studio:contact:index"/>
+    <file name="u817-grad.png" crc="3905114423" ref="portfolio:studio:contact:index"/>
+    <file name="menuu867-full.png" crc="4107070876" ref="portfolio:studio:contact:index"/>
+    <file name="jrfa_banner02.jpg" crc="142393327" ref="portfolio:studio:contact:index"/>
+    <file name="art (4).jpg" crc="324966082" ref="portfolio"/>
+    <file name="art (6).jpg" crc="185813089" ref="portfolio"/>
+    <file name="art (1).jpg" crc="3925547109" ref="portfolio"/>
+    <file name="art (2).jpg" crc="152751988" ref="portfolio"/>
+    <file name="art (10).jpg" crc="101064305" ref="portfolio"/>
+    <file name="art (8).jpg" crc="361811900" ref="portfolio"/>
+    <file name="loading.gif" crc="3815509949" ref="portfolio"/>
+  </folder>
+  <file name="portfolio.html" crc="3794354503" mt="1339706820140"/>
+  <file name="studio.html" crc="3938202762" mt="1339706820144"/>
+  <file name="contact.html" crc="3758249902" mt="1339706820147"/>
+  <file name="index.html" crc="213020734" mt="1339706820151"/>
+</manifest>
